@@ -86,6 +86,9 @@ Chronux is modular and open for extension:
 
 ---
 
+## Full docs
+- See [`docs/`](docs/) for full documentation
+
 ## 📜 License
 
 MIT © 2025 Mohammad Anzawi ([@anzawi](https://github.com/anzawi))
