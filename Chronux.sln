@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9690147B-477C-4708-99E3-4236A8E7E036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronux.Core", "src\Chronux.Core\Chronux.Core.csproj", "{3A190F7C-C38A-4713-B1E6-F27866D34C32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{99A53ACC-6D8C-41AB-AD7D-1C57CA3309F4}"
+	ProjectSection(SolutionItems) = preProject
+		samples\README.md = samples\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronux.AspNetCore", "src\Chronux.AspNetCore\Chronux.AspNetCore.csproj", "{762861BA-DD18-4662-BFED-EDEE5FEC8CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronux.Storage.SqlServer", "src\Chronux.Storage.SqlServer\Chronux.Storage.SqlServer.csproj", "{A0B115BF-E594-4F43-92BD-B3ED24584B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronux.Storage.Redis", "src\Chronux.Storage.Redis\Chronux.Storage.Redis.csproj", "{247FB2BA-7BA4-420E-B73C-7B7698EAD64B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A190F7C-C38A-4713-B1E6-F27866D34C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A190F7C-C38A-4713-B1E6-F27866D34C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A190F7C-C38A-4713-B1E6-F27866D34C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A190F7C-C38A-4713-B1E6-F27866D34C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762861BA-DD18-4662-BFED-EDEE5FEC8CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762861BA-DD18-4662-BFED-EDEE5FEC8CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762861BA-DD18-4662-BFED-EDEE5FEC8CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762861BA-DD18-4662-BFED-EDEE5FEC8CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B115BF-E594-4F43-92BD-B3ED24584B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B115BF-E594-4F43-92BD-B3ED24584B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B115BF-E594-4F43-92BD-B3ED24584B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B115BF-E594-4F43-92BD-B3ED24584B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247FB2BA-7BA4-420E-B73C-7B7698EAD64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247FB2BA-7BA4-420E-B73C-7B7698EAD64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247FB2BA-7BA4-420E-B73C-7B7698EAD64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247FB2BA-7BA4-420E-B73C-7B7698EAD64B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A190F7C-C38A-4713-B1E6-F27866D34C32} = {9690147B-477C-4708-99E3-4236A8E7E036}
+		{762861BA-DD18-4662-BFED-EDEE5FEC8CF2} = {9690147B-477C-4708-99E3-4236A8E7E036}
+		{A0B115BF-E594-4F43-92BD-B3ED24584B0E} = {9690147B-477C-4708-99E3-4236A8E7E036}
+		{247FB2BA-7BA4-420E-B73C-7B7698EAD64B} = {9690147B-477C-4708-99E3-4236A8E7E036}
+	EndGlobalSection
+EndGlobal
